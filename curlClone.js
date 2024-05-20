@@ -67,15 +67,3 @@ function main() {
 }
 
 main();
-
-// node curlClone.js GET www.google.com
-// https://jsonplaceholder.typicode.com/guide/
-// node curlClone.js GET https://jsonplaceholder.typicode.com/posts/1
-// node curlClone.js GET https://jsonplaceholder.typicode.com/posts --params "userId=1"
-// node curlClone.js POST https://jsonplaceholder.typicode.com/posts -d '{"title": "foo", "body": "bar", "userId": 1}'
-// '{"title": "foo", "body": "bar", "userId": 1}' > data.json
-// node curlClone.js POST https://jsonplaceholder.typicode.com/posts -d @data.json
-// node curlClone.js POST https://jsonplaceholder.typicode.com/posts -d '{"title": "foo", "body": "bar", "userId": 1}' -H "Content-Type: application/json"
-// node curlClone.js PUT https://jsonplaceholder.typicode.com/posts/1 -d '{"id": 1, "title": "foo", "body": "bar", "userId": 1}'
-// node curlClone.js DELETE https://jsonplaceholder.typicode.com/posts/1
-// node curlClone.js GET https://jsonplaceholder.typicode.com/posts/1 -o response.json
